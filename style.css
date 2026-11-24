@@ -132,7 +132,7 @@ nav {
 
 .projects-section-containter {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 1.5rem;
     width: 100%;
     padding: 1.5rem 10% 5rem;
@@ -143,7 +143,6 @@ nav {
     line-height: 2.5rem;
 }
 .project-container {
-    aspect-ratio: 1/1;
     min-width: 0;
     padding: 1.5rem;
     background: var(--card-background);

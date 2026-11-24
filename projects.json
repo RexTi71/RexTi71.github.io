@@ -11,12 +11,12 @@
     },
     {
         "title": "RESTEasy",
-        "desc": "is a Windows desktop application for sending and testing HTTP requests to REST APIs. It provides a simple interface for configuring requests and inspecting server responses.",
+        "desc": "Is a Windows desktop application for sending and testing HTTP requests to REST APIs. It provides a simple interface for configuring requests and inspecting server responses.",
         "url": "https://github.com/RexTi71/RESTEasy"
     },
     {
         "title": "winsock-http-server",
-        "desc": "winsock-http-server is a personal implementation of an HTTP server in C++ for learning purposes using the winsock2 library that runs natively on a Windows machine. It responds to basic HTTP requests like:",
+        "desc": "Is a personal implementation of an HTTP server in C++ for learning purposes using the winsock2 library that runs natively on a Windows machine. It responds to basic HTTP requests like:",
         "url": "https://github.com/RexTi71/winsock-http-server"
     }
 ]
