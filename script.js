@@ -1,18 +1,11 @@
-// class ProjectItem{
-//     constructor(title, desc){
-//         this.title = title;
-//         this.desc = desc;
-//     }
-// }
+
 document.addEventListener("DOMContentLoaded", initializeProjects);
 function jumpTo(element){
-    //element = document.getElementById(elementStr);
     location.href = `#${element}`;
 }
 async function initializeProjects(){
     const projects = await fetch("./projects.json").then(resp => resp.json());
     const parent = document.getElementsByClassName("projects-section-containter")[0];
-    //console.log(projects)
     projects.forEach(project => {
         const element = document.createElement("div");
         const title = document.createElement("h3");
