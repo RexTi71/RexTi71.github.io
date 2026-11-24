@@ -1,0 +1,22 @@
+[
+    {
+        "title": "MovieReviewer",
+        "desc": "Website for movie reviews with user authentication. App allows user to add reviews for their favorite movies and also add comments to reviews.",
+        "url": "https://github.com/RexTi71/MovieReviewer"
+    },
+    {
+        "title": "WorkingOut",
+        "desc": "A specialized web application designed for fitness enthusiasts to manage their daily workout routines. The app allows users to create personalized exercise lists, track sets and reps, and organize their training by days of the week.",
+        "url": "https://github.com/RexTi71/WorkingOut"
+    },
+    {
+        "title": "RESTEasy",
+        "desc": "is a Windows desktop application for sending and testing HTTP requests to REST APIs. It provides a simple interface for configuring requests and inspecting server responses.",
+        "url": "https://github.com/RexTi71/RESTEasy"
+    },
+    {
+        "title": "winsock-http-server",
+        "desc": "winsock-http-server is a personal implementation of an HTTP server in C++ for learning purposes using the winsock2 library that runs natively on a Windows machine. It responds to basic HTTP requests like:",
+        "url": "https://github.com/RexTi71/winsock-http-server"
+    }
+]

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Kedebideri:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Dominik Rekowski</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav>
+        <div class="nav-filler"></div>
+        <h2 class="nav-item" onclick="jumpTo('about-me')">About Me</h2>
+        <h2 class="nav-item" onclick="jumpTo('projects')">Projects</h2>
+        <h2 class="nav-item" onclick="jumpTo('contact')">Contact</h2>
+    </nav>
+    <div class="page-container">
+        <div class="main-container">
+            <div class="about-me-container" id="about-me">    
+                <p class="about-me-text">Hello there, my name is <b style="color:var(--accent)">Dominic</b> a backend developer
+                    specialising in Java and Spring Boot</p>
+                    <img src="about-me.jpg" class="about-me-picture">
+                </div>
+                <h2 class="projects-heading">List of projects</h2>
+                <div class="projects-section-containter" id="projects">
+                </div>
+            </div>
+        </div>
+    <footer id="contact">
+        <a href="mailto:d.rekowski04@wp.pl">d.rekowski04@wp.pl</a>
+    </footer>
+</body>
+</html>
